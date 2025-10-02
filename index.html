@@ -148,7 +148,7 @@ canvas {
   </style>
 </head>
 <body>
-  <h1>🎉 Spin the Bottle 🎉</h1>
+  <h1 style="color: #fff;"> <i> <b>Spin the Wheel</b></i></h1>
 
   <div class="inputs" id="inputs"></div>
   <button onclick="setupSpinner()">Submit Names</button>
@@ -208,7 +208,7 @@ canvas {
 
       for (let i = 0; i < num; i++) {
         ctx.beginPath();
-        ctx.fillStyle = i % 2 === 0 ? "#FFB347" : "#77DD77";
+        ctx.fillStyle = i % 2 === 0 ? "#90E0EF" : "#015798";
         ctx.moveTo(150, 150);
         ctx.arc(150, 150, 150, i * arc, (i + 1) * arc);
         ctx.fill();
